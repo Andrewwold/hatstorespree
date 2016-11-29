@@ -1,0 +1,117 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require spree/frontend
+
+ *= require_self
+ *= require_tree .
+ *= require spree/frontend/spree_static_content
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Pompiere');
+
+#spree-header {
+	background: white;
+}
+
+#spree-header
+
+#logo img {
+	width: 30%;
+}
+
+#spree-header
+
+#header{
+	background: white;
+}
+
+#spree-header
+
+.nav a {
+	color: black;
+}
+
+#spree-header
+
+.nav a:hover {
+	color: white;
+	background: black;
+	border-radius: 2px;
+}
+
+.container {
+	background-color: white;
+}
+
+.btn-success {
+	color: white;
+	background-color: black;
+	border-color: black;
+}
+
+.btn-success:hover {
+	background-color: black;
+	color: white;
+	text-decoration: underline;
+}
+
+a {
+	color: black;
+}
+
+.alert-info,
+.alert-alert {
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	border-left: 5px solid black;
+	color: black;
+}
+
+.well {
+	border-left: 5px solid black;
+}
+
+.panel-body {
+	padding: 20px;
+}
+
+img {
+	width: 100%;
+}
+
+.product-body {
+	height: 250px;
+}
+
+.panel-default {
+	border-color: transparent;
+}
+
+.panel {
+	margin-bottom: 50px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 2px;
+	box-shadow: white;
+	border-left: 5px solid black;
+}
+
+.panel-footer {
+	background-color: white;
+	border-top: 1px solid black;
+}
+
+body {
+	font-family: 'Pompiere', sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+	background-color: black;
+	color: white;
+	border-color:black;
+}
